@@ -15,7 +15,7 @@ def my_collect(array)
   # end
   collection
 end
-# 
+#
 # # def upcase_dindos(array)
 # #   i = 0
 # #   collection = []
@@ -35,16 +35,16 @@ end
 # #   end
 # #   collection
 # # end
-# 
+#
 # dindos = ["mush", "quatar", "gana"]
-# 
+#
 # # puts upcase_dindos(dindos)
 # # puts reverse_dindos(dindos)
-# 
+#
 # upcase = my_collect(dindos) do |dindo|
 #   "I love #{dindo.upcase}!"
 # end
-# 
+#
 # reverse = my_collect(dindos) do |dindo|
 #   "I love #{dindo.reverse}!"
 # end
