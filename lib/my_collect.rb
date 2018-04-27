@@ -11,7 +11,7 @@ end
 dindos = ["mush", "quatar", "gana"]
 
 a = my_collect(dindos) do |dindo|
-  "I love #{dindo}!"
+  "I love #{dindo.upcase}!"
 end
 
 puts a
