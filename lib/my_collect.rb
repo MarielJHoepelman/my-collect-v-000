@@ -18,7 +18,17 @@ def upcase_dindos(array)
   collection
 end
 
+def reverse_dindos(array)
+  i = 0
+  collection = []
+  while i < array.length
+    collection << "I love #{array[i]}!"
+    i += 1
+  end
+  collection
+end
+
 dindos = ["mush", "quatar", "gana"]
 
-a = upcase_dindos(dindos)
-puts a
+puts upcase_dindos(dindos)
+puts reverse_dindos(dindos)
