@@ -8,10 +8,17 @@ def my_collect(array)
   collection
 end
 
-dindos = ["mush", "quatar", "gana"]
-
-a = my_collect(dindos) do |dindo|
-  "I love #{dindo}!"
+def upcase_dindos(array)
+  i = 0
+  collection = []
+  while i < array.length
+    collection << "I love #{array[i]}!"
+    i += 1
+  end
+  collection
 end
 
+dindos = ["mush", "quatar", "gana"]
+
+a = upcase_dindos(array)
 puts a
