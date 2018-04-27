@@ -12,7 +12,7 @@ def upcase_dindos(array)
   i = 0
   collection = []
   while i < array.length
-    collection << "I love #{array[i]}!"
+    collection << "I love #{array[i].upcase}!"
     i += 1
   end
   collection
