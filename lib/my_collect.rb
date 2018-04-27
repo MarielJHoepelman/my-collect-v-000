@@ -20,5 +20,5 @@ end
 
 dindos = ["mush", "quatar", "gana"]
 
-a = upcase_dindos(array)
+a = upcase_dindos(dindos)
 puts a
