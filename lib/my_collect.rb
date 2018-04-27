@@ -34,9 +34,9 @@ dindos = ["mush", "quatar", "gana"]
 # puts reverse_dindos(dindos)
 
 upcase = my_collect(dindos) do |dindo|
-  "I love #{array[i].upcase}!"
+  "I love #{dindo.upcase}!"
 end
 
 reverse = my_collect(dindos) do |dindo|
-  "I love #{array[i].reverse}!"
+  "I love #{dindo.reverse}!"
 end
