@@ -40,3 +40,5 @@ end
 reverse = my_collect(dindos) do |dindo|
   "I love #{dindo.reverse}!"
 end
+puts upcase
+puts reverse
