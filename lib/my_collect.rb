@@ -10,6 +10,6 @@ end
 
 dindos = ["mush", "quatar", "gana"]
 
-my_collect(dindos) do |dindo|
+puts my_collect(dindos) do |dindo|
   "I love #{dindo}!"
 end
