@@ -1,8 +1,8 @@
 def my_collect(array)
   i = 0
   collection = []
-  array.each do |thing|
-    collection << yield(thing)
+  while i < array.length
+    collection << yield(array[i])
     i += 1
   end
   collection
